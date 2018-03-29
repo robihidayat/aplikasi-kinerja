@@ -1,3 +1,15 @@
+INSERT INTO staff_role (id,role_name,description) VALUES
+('001','Ketua',''),
+('002','Pembantu Ketua',''),
+('003','Direktur',''),
+('004','Ketua Program Studi',''),
+('005','Kepala Bagian',''),
+('006','Sekretaris',''),
+('007','Dosen Tetap',''),
+('008','Kepala Seksi',''),
+('010','Staf','');
+
+
 INSERT INTO staff (id, employee_name, employee_number, job_level, job_title, department, area, id_user) VALUES
 ('001','Ir. Agus Haryadi, AAAIJ, ASAI, FIIS ','','','Ketua','YTC','YTC','001'),
 ('002','Dr. Ahmad Mukhlis Yusuf ','','','Sekretaris','YTC','YTC','002'),
