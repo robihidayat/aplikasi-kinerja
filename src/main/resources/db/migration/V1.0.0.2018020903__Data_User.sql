@@ -118,7 +118,9 @@ INSERT INTO s_user (id, username, email, active, id_role) VALUES
 ('117',  'Jhonson Abdul','jhonson@tazkia.ac.id','TRUE','employee'),
 ('118',  'Muhammad Hafizhuddin','mhmmdhafizh@gmail.com','TRUE','employee'),
 ('119',  'Muhammad Iqbal','iqbal@tazkia.ac.id','TRUE','employee'),
-('120',  'Neti Dewi','','TRUE','employee');
+('120',  'Neti Dewi','','TRUE','employee'),
+('121',  'Nurul Hasanah','','TRUE','employee'),
+('122',  'Ilyas','','TRUE','employee');
 
 -- Password : 123
 INSERT INTO s_user_password (id, id_user, password) VALUES
@@ -241,7 +243,9 @@ INSERT INTO s_user_password (id, id_user, password) VALUES
   ('117','117','$2a$17$g6pNPoXyIknhS1lax/zIoetaUWWTeG7tP/xV3Fpx1FCY3mjDfWnT.'),
   ('118','118','$2a$17$g6pNPoXyIknhS1lax/zIoetaUWWTeG7tP/xV3Fpx1FCY3mjDfWnT.'),
   ('119','119','$2a$17$g6pNPoXyIknhS1lax/zIoetaUWWTeG7tP/xV3Fpx1FCY3mjDfWnT.'),
-  ('120','120','$2a$17$g6pNPoXyIknhS1lax/zIoetaUWWTeG7tP/xV3Fpx1FCY3mjDfWnT.');
+  ('120','120','$2a$17$g6pNPoXyIknhS1lax/zIoetaUWWTeG7tP/xV3Fpx1FCY3mjDfWnT.'),
+  ('121','121','$2a$17$g6pNPoXyIknhS1lax/zIoetaUWWTeG7tP/xV3Fpx1FCY3mjDfWnT.'),
+  ('122','122','$2a$17$g6pNPoXyIknhS1lax/zIoetaUWWTeG7tP/xV3Fpx1FCY3mjDfWnT.');
 
 insert into staff_superior values
 ('001','041','011'),
@@ -373,4 +377,6 @@ insert into staff_superior values
 ('127','045','028'),
 ('128','009','028'),
 ('129','052','028'),
-('130','050','032');
+('130','050','032'),
+('131','121','017'),
+('132','122','017');
