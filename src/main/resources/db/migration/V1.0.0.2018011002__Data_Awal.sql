@@ -119,6 +119,8 @@ INSERT INTO staff (id, employee_name, employee_number, job_level, job_title, dep
 ('118','Muhammad Hafizhuddin, S.E.','','','Staf','Humas','puket III','119'),
 ('119','Muhammad Iqbal, S.E.I','','','Staf','Komdis','puket III','120'),
 ('120','Neti Dewi Hartati, M.E.Sy.','017.134','','Sekretaris','Prodi IPS Tadris','puket I','120');
+('121','Nurul Hasanah','','','Staf','Akademik','puket 1','121'),
+('122','Ilyas A.Md.','','','Staf','Akademik','puket I','122');
 
 insert into category (id,name) values
 ('001','individual_score'),
